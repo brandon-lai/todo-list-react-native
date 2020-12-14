@@ -13,7 +13,8 @@ export default function AddTodo({ submitHandler }) {
             <TextInput
             style={styles.input}
             placeholder="new todo..."
-            onChangeText={changeHandler} 
+            onChangeText={changeHandler}
+            clearButtonMode="always"
             />
             <Button onPress={() => submitHandler(text)} title='add todo' color='#77C7F7' />
         </View>
