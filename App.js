@@ -56,9 +56,11 @@ const styles = StyleSheet.create({
 
   content: {
     padding: 40,
+    flex: 1,
   },
 
   list: {
     margin: 40,
+    flex: 1,
   }
 });
